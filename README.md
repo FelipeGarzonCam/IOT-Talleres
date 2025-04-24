@@ -40,11 +40,7 @@ Repositorio para reforzar conocimientos en Docker, aprendiendo sobre Pybullet y 
   `PistatKinter/main.py`
 - **Tecnologías**  
   Python · Tkinter · PID
----
+--
 
-## Requisitos
 
-- Python 3.7+  
-- Módulos Python:  
-  ```bash
-  pip install numpy pybullet tkinter
+
