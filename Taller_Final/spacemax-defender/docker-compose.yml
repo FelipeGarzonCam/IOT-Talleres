@@ -1,0 +1,14 @@
+cat > docker-compose.yml << 'EOF'
+version: '3.8'
+services:
+  spacemax:
+    build: .
+    image: spacemax-defender:latest
+    volumes:
+      - ./src:/app
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    environment:
+      - DISPLAY=${DISPLAY:-:0}
+    network_mode: host
+    command: ["python", "spacemax_defender.py"]
+EOF

@@ -1,0 +1,2 @@
+down: ## Para y elimina contenedor
+	docker-compose down
