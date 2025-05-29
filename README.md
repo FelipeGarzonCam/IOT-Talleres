@@ -19,7 +19,7 @@ Un emocionante juego espacial desarrollado en Python con Pygame, donde defiendas
 - **← →**: Mover nave izquierda/derecha
 - **ESPACIO**: Disparar láser
 - **ESC**: Salir del juego
-  **P**: Pausa el juego
+- **P**: Pausa el juego
 
 ## 🛠️ Tecnologías Utilizadas
 
